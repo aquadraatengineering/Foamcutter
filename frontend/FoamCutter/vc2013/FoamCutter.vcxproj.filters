@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{BE894CAA-F489-4BBD-B95C-6338DF897575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\poScene">
+      <UniqueIdentifier>{DD88E45B-DCDA-4346-A51D-94963C309E11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\poScene\src">
+      <UniqueIdentifier>{92B6EEDD-572B-4AE0-9641-142BD9FE8F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\poScene\src\poScene">
+      <UniqueIdentifier>{525DC7C0-B36B-4B59-80B1-6D0A5E252D1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{74cde5ef-cfc6-44cf-840b-819262cfb5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\serial">
+      <UniqueIdentifier>{8d9640e1-0eed-4027-b7f7-30677caed70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{01108c55-ff96-4e3d-a0a8-c6dc5e4257f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\components">
+      <UniqueIdentifier>{04f5cb40-b0e9-48e3-968c-1b372b15d30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\components\textinput">
+      <UniqueIdentifier>{e7b73b7f-dae9-43bb-ab69-bf922ccd0070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\components\base">
+      <UniqueIdentifier>{13ed9a41-290c-41bd-8af0-bfd8f3e90fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\components\buttons">
+      <UniqueIdentifier>{dc9871f2-6688-478e-bbec-59eeeb16885a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\settings">
+      <UniqueIdentifier>{47f3d190-cc4a-4d51-b535-a8d381858c8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\FoamCutterApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FoamCutterApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\DragAndDrop.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\DraggableView.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\EventCenter.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\Events.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\ImageView.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\MatrixSet.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\Scene.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\ShapeView.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\TextureFit.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\TextView.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\VideoView.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\View.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\ViewController.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\ViewEvents.h">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\DragAndDrop.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\DraggableView.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\EventCenter.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\Events.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\ImageView.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\MatrixSet.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\Scene.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\ShapeView.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\TextView.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\View.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\ViewController.cpp">
+      <Filter>Blocks\poScene\src\poScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainViewController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Log.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LogView.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TextInput.cpp">
+      <Filter>Source Files\ui\components\textinput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Clickable.cpp">
+      <Filter>Source Files\ui\components\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FocusManager.cpp">
+      <Filter>Source Files\ui\components\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ImageButton.cpp">
+      <Filter>Source Files\ui\components\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SerialHandler.cpp">
+      <Filter>Source Files\serial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GlobalSettings.cpp">
+      <Filter>Source Files\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SettingController.cpp">
+      <Filter>Source Files\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\SettingManager.cpp">
+      <Filter>Source Files\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ManualInputVC.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ToggleButton.cpp">
+      <Filter>Source Files\ui\components\buttons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainViewController.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Singleton.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AssetsCache.h">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Log.hpp">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LogView.hpp">
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TextInput.h">
+      <Filter>Source Files\ui\components\textinput</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Clickable.h">
+      <Filter>Source Files\ui\components\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FocusManager.h">
+      <Filter>Source Files\ui\components\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ImageButton.h">
+      <Filter>Source Files\ui\components\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SerialHandler.hpp">
+      <Filter>Source Files\serial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GlobalSettings.h">
+      <Filter>Source Files\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SettingController.h">
+      <Filter>Source Files\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SettingManager.h">
+      <Filter>Source Files\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SettingString.h">
+      <Filter>Source Files\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ManualInputVC.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ToggleButton.h">
+      <Filter>Source Files\ui\components\buttons</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

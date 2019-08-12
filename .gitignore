@@ -4,27 +4,12 @@
 
 .bash_history
 .viminfo
-ReplayStation/_test_run/
-ReplayStation/assets/dxtLogos/
-ReplayStation/assets/dxtPortraits/
-ReplayVideoPlayer/assets/dxtportraits/
+frontend/cinder_0.9.1_vc2013/
 
-Backend/incoming
-Backend/transferred
-Backend/DXT
-Backend/compositions
 
 *.dxt5
 
-CaptureStation/assets/export
 
-ReplayStation/assets/compositions
-ReplayStation/assets/export
-
-LogoVideoPlayer/assets/dxtLogos
-
-assets/screenshots/
-settings.json
 
 # User-specific files
 *.suo
