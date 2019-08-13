@@ -36,7 +36,7 @@ void LogView::makeLog()
     int l =LOG()->logData.size();
     int pos =0;
 	
-    for(int i=l-1;i>=max(0,l-30); i--)
+    for(int i=l-1;i>=max(0,l-36); i--)
     {
         addLogText(LOG()->logData[i].first,LOG()->logData[i].second,pos );
         
