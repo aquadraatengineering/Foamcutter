@@ -11,6 +11,7 @@
 #include "poScene/ImageView.h"
 #include "ManualInputVC.h"
 #include "BaseInputVC.h"
+#include "PositionView.hpp"
 class MainViewController;
 typedef std::shared_ptr<MainViewController> MainViewControllerRef;
 
@@ -22,5 +23,6 @@ public:
 	po::scene::ImageViewRef background;
 	ManualInputVCRef manualInput;
 	BaseInputVCRef baseInput;
+	PositionViewRef positionView;
 };
 

@@ -9,7 +9,8 @@
 
 #include "poScene/ImageView.h"
 #include "poScene/TextView.h"
-
+#include "poScene/ShapeView.h"
+#include "ToggleButton.h"
 class PositionView;
 typedef std::shared_ptr<PositionView> PositionViewRef;
 
@@ -27,5 +28,6 @@ public:
       void setTextRaw(float rawPos);
     float smoothPosIn=0;
     po::scene::ViewRef distanceHolder;
+	ToggleButtonRef topBottomButton;
 };
 

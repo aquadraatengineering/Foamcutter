@@ -131,6 +131,7 @@
     <ClCompile Include="..\src\LogView.cpp" />
     <ClCompile Include="..\src\MainViewController.cpp" />
     <ClCompile Include="..\src\ManualInputVC.cpp" />
+    <ClCompile Include="..\src\PositionView.cpp" />
     <ClCompile Include="..\src\SerialHandler.cpp" />
     <ClCompile Include="..\src\SettingController.cpp" />
     <ClCompile Include="..\src\SettingManager.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="..\src\LogView.hpp" />
     <ClInclude Include="..\src\MainViewController.hpp" />
     <ClInclude Include="..\src\ManualInputVC.h" />
+    <ClInclude Include="..\src\PositionView.hpp" />
     <ClInclude Include="..\src\SerialHandler.hpp" />
     <ClInclude Include="..\src\SettingController.h" />
     <ClInclude Include="..\src\SettingManager.h" />

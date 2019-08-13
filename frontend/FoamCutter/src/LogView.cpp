@@ -22,7 +22,7 @@ LogViewRef LogView::create()
 
 void LogView::setup()
 {
-	bg = po::scene::ShapeView::createRoundedRect(420, 960, 8);
+	bg = po::scene::ShapeView::createRoundedRect(420, 950, 8);
 	bg->setFillColor(Color::gray(0.5));
 	bg->setPosition(-20, -20);
 	addSubview(bg);

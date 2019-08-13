@@ -177,6 +177,9 @@
     <ClCompile Include="..\src\LogView.cpp">
       <Filter>Source Files\ui</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\PositionView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
@@ -231,6 +234,9 @@
       <Filter>Source Files\ui</Filter>
     </ClInclude>
     <ClInclude Include="..\src\LogView.hpp">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PositionView.hpp">
       <Filter>Source Files\ui</Filter>
     </ClInclude>
   </ItemGroup>

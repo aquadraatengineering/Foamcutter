@@ -21,6 +21,6 @@ public:
 	virtual void mouseUp(po::scene::MouseEvent& event);
 	po::scene::ImageViewRef mImage;
 
-
+	pressSignal mSignalReleased;
 	pressSignal mSignalPressed;
 };

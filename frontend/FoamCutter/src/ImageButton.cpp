@@ -38,6 +38,7 @@ void ImageButton::mouseDown(po::scene::MouseEvent& event)
 }
 void ImageButton::mouseUp(po::scene::MouseEvent& event)
 {
+	mSignalReleased.emit();
 	setAlpha(1.0);
 
 }

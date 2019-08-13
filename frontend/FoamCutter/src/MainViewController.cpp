@@ -40,6 +40,12 @@ void MainViewController::setup(){
 	baseInput->getView()->setPosition(40, 40+150);
 	getView()->addSubview(baseInput->getView());
 
+	positionView = PositionView::create();
+	positionView->setup();
+	positionView->setPosition(670, 40);
+	getView()->addSubview(positionView);
+
+
 
 	LogViewRef l = LogView::create();
 	l->setPosition(1500, 40);
