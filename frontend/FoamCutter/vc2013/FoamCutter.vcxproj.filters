@@ -141,9 +141,6 @@
     <ClCompile Include="..\src\Log.cpp">
       <Filter>Source Files\utils</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\LogView.cpp">
-      <Filter>Source Files\utils</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\TextInput.cpp">
       <Filter>Source Files\ui\components\textinput</Filter>
     </ClCompile>
@@ -174,6 +171,12 @@
     <ClCompile Include="..\src\ToggleButton.cpp">
       <Filter>Source Files\ui\components\buttons</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\BaseInputVC.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LogView.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
@@ -189,9 +192,6 @@
       <Filter>Source Files\utils</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Log.hpp">
-      <Filter>Source Files\utils</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\LogView.hpp">
       <Filter>Source Files\utils</Filter>
     </ClInclude>
     <ClInclude Include="..\src\TextInput.h">
@@ -226,6 +226,12 @@
     </ClInclude>
     <ClInclude Include="..\src\ToggleButton.h">
       <Filter>Source Files\ui\components\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BaseInputVC.h">
+      <Filter>Source Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LogView.hpp">
+      <Filter>Source Files\ui</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

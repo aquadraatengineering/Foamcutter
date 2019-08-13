@@ -18,7 +18,7 @@ public:
 	
 	void setup(std::string imagepath, float rotation=0);
 	virtual void mouseDown(po::scene::MouseEvent& event);
-
+	virtual void mouseUp(po::scene::MouseEvent& event);
 	po::scene::ImageViewRef mImage;
 
 

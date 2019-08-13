@@ -33,5 +33,11 @@ void ImageButton::setup(std::string imagePath, float rotation)
 void ImageButton::mouseDown(po::scene::MouseEvent& event) 
 {
 	mSignalPressed.emit();
+	setAlpha(0.9);
+
+}
+void ImageButton::mouseUp(po::scene::MouseEvent& event)
+{
+	setAlpha(1.0);
 
 }

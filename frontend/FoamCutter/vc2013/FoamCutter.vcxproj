@@ -110,6 +110,7 @@
   <ItemGroup />
   <ItemGroup />
   <ItemGroup>
+    <ClCompile Include="..\src\BaseInputVC.cpp" />
     <ClCompile Include="..\src\Clickable.cpp" />
     <ClCompile Include="..\src\FoamCutterApp.cpp" />
     <ClCompile Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\DragAndDrop.cpp" />
@@ -153,6 +154,7 @@
     <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\ViewController.h" />
     <ClInclude Include="..\..\cinder_0.9.1_vc2013\blocks\Cinder-poScene-develop\src\poScene\ViewEvents.h" />
     <ClInclude Include="..\src\AssetsCache.h" />
+    <ClInclude Include="..\src\BaseInputVC.h" />
     <ClInclude Include="..\src\Clickable.h" />
     <ClInclude Include="..\src\FocusManager.h" />
     <ClInclude Include="..\src\GlobalSettings.h" />

@@ -10,7 +10,7 @@
 #include "poScene/ViewController.h"
 #include "poScene/ImageView.h"
 #include "ManualInputVC.h"
-
+#include "BaseInputVC.h"
 class MainViewController;
 typedef std::shared_ptr<MainViewController> MainViewControllerRef;
 
@@ -21,6 +21,6 @@ public:
     void setup();
 	po::scene::ImageViewRef background;
 	ManualInputVCRef manualInput;
-
+	BaseInputVCRef baseInput;
 };
 

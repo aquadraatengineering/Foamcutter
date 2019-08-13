@@ -33,6 +33,7 @@ void SerialHandler::setup(){
         return;
     }
    std::this_thread::sleep_for (std::chrono::seconds(1));
+
     LOG()->log("Serial Connected: " + name);
 
     updateSettings();

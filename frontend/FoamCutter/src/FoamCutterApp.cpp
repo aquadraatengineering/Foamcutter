@@ -27,6 +27,7 @@ void FoamCutterApp::setup()
 	setWindowPos(vec2(20, 20));
 	//setFullScreen(true);
 	mMainViewController = MainViewController::create();
+
 	mScene = po::scene::Scene::create(mMainViewController);
 	SERIAL()->setup();
 }

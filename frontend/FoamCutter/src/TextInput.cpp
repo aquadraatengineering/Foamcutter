@@ -87,6 +87,7 @@ bool TextInput::checkValue()
 	catch(...)
 	{
 		isOk = false;
+		val = -10000000;
 	}
 
 	std::size_t found = text.find(".");

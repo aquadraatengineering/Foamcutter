@@ -22,16 +22,20 @@ LogViewRef LogView::create()
 
 void LogView::setup()
 {
-    
+	bg = po::scene::ShapeView::createRoundedRect(420, 960, 8);
+	bg->setFillColor(Color::gray(0.5));
+	bg->setPosition(-20, -20);
+	addSubview(bg);
     
 }
 void LogView::makeLog()
 {
     
     removeAllSubviews();
+	addSubview(bg);
     int l =LOG()->logData.size();
     int pos =0;
- 
+	
     for(int i=l-1;i>=max(0,l-30); i--)
     {
         addLogText(LOG()->logData[i].first,LOG()->logData[i].second,pos );
@@ -54,7 +58,7 @@ void LogView::addLogText(std::string text,int type,int pos)
         
     }
     ciTextBox.text(text);
-    ciTextBox.setBackgroundColor(Color(0, 0, 0));
+    ciTextBox.setBackgroundColor(Color::gray(0.5));
     ciTextBox.setAlignment(ci::TextBox::Alignment::LEFT);
     
     ciTextBox.font(CACHE()->getFont("fonts/Inconsolata.otf", 20));

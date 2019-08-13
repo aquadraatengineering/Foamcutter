@@ -19,7 +19,7 @@ using namespace std;
 
 void  ManualInputVC::setup() {
 
-	ShapeViewRef mShape = po::scene::ShapeView::createRoundedRect(600,140, 8);
+	ShapeViewRef mShape = po::scene::ShapeView::createRoundedRect(620,140, 8);
 	mShape->setFillColor(Color::gray(0.9));
 	mShape->setPosition(-20, -20);
 	getView()->addSubview(mShape);
@@ -67,7 +67,7 @@ void  ManualInputVC::setTextInput()
 
 
 		textInput->clear();
-		FOCUS()->clearFocus();
+		//FOCUS()->clearFocus();
 		isTop = !isTop;
 		topBottomButton->setState(isTop);
 	}
