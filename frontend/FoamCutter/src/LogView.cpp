@@ -84,3 +84,4 @@ void LogView::update()
     
     
 }
+

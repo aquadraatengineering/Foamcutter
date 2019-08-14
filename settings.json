@@ -1,0 +1,12 @@
+{
+   "controllerP" : 21,
+   "fastSpeed" : 800,
+   "heightOffset" : 0,
+   "maxAxel" : 910,
+   "maxDist" : 600,
+   "maxDistInput" : 3610,
+   "minDist" : 84,
+   "minDistInput" : 630,
+   "showSettings" : true,
+   "slowSpeed" : 200
+}
